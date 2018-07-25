@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lily.animationpractice">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.ViewAnimationActivity"/>
+        <activity android:name=".frame.FrameAnimationActivity"/>
+        <activity android:name=".view.ViewItemActivity"/>
+        <activity android:name=".property.PropertyAnimationActivity"/>
+        <activity android:name=".user_defined.CircleActivity"/>
+        <activity android:name=".property.ValueAnimationActivity"/>
+        <activity android:name=".property.MyDesignActivity"/>
+        <activity android:name=".property.LoadingPage"/>
+        <activity android:name=".property.BezierActivity"/>
+
+        <service android:name="com.example.lily.service.XService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":remote">
+            <intent-filter >
+                <action android:name="com.service.XService"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

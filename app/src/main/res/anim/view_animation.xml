@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <translate
+        android:fromXDelta="0"
+        android:fromYDelta="0"
+        android:toXDelta="300"
+        android:toYDelta="500"
+        android:duration= "1500"
+        />  <!--平移-->
+
+
+    <alpha
+        android:fromAlpha="0.1"
+        android:toAlpha="1"
+        android:duration= "1500"/>   <!--透明度-->
+    <!--缩放-->
+    <scale
+        android:fromXScale="0.5"
+        android:fromYScale="0.5"
+        android:toXScale="2"
+        android:toYScale="2"
+        android:duration= "1500"/>
+
+    <!--旋转-->
+   <!-- <rotate android:fromDegrees="0"
+        android:toDegrees="180"
+        android:pivotX="10"
+        android:pivotY="20"
+        android:duration= "1500"/>-->
+
+
+</set>

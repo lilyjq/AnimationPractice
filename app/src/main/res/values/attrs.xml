@@ -1,0 +1,11 @@
+<resources>
+
+    <declare-styleable name="CircleSuccessView">
+
+        <attr name="circle_color" format="color" />
+        <attr name="stroke_width" format="integer" />
+
+    </declare-styleable>
+
+
+</resources>

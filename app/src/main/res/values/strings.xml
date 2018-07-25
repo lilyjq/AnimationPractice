@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AnimationPractice</string>
+    <string name="vertical">垂直</string>
+    <string name="parabola">抛物线</string>
+    <string name="parabolaandmove">抛物线且移除</string>
+</resources>
